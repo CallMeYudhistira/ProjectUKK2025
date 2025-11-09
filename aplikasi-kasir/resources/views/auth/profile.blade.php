@@ -2,7 +2,7 @@
 @section('title', 'Profile | User')
 @section('content')
 
-    <div class="container py-5">
+    <div class="container py-5 my-4">
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="card shadow-lg border-0 rounded-4 overflow-hidden">

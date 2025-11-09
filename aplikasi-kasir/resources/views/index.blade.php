@@ -13,27 +13,26 @@
             font-family: 'Plus Jakarta Sans', sans-serif;
         }
 
-        /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, #007bff 0%, #00d4ff 100%);
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0d6efd 30%, #4e9bff);
             color: white;
-            padding: 250px 0;
-            text-align: center;
+            padding: 0 15px;
         }
 
         .hero h1 {
-            font-size: 2.4rem;
-            font-weight: 700;
+            font-size: 2.5rem;
         }
 
         .hero p {
-            font-size: 1.2rem;
-            margin-top: 15px;
+            max-width: 600px;
+            margin: 0 auto;
         }
 
         /* Features */
         .features {
-            padding: 80px 0;
+            min-height: 100vh;
+            padding: 0 15px;
         }
 
         .feature-box {
@@ -86,16 +85,16 @@
 <body>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
+    <section id="home" class="hero d-flex align-items-center text-center">
         <div class="container">
-            <h1>Buat Kelola Transaksi Anda Lebih Mudah!</h1>
-            <p>Aplikasi kasir berbasis web yang cepat, aman, dan mudah digunakan!</p>
-            <a href="#features" class="btn btn-light mt-4 px-4 py-2 fw-semibold">Mulai Sekarang</a>
+            <h1 class="display-5 fw-bold">Buat Kelola Transaksi Anda Lebih Mudah!</h1>
+            <p class="mt-3 mb-4" style="font-size: 17px;">Aplikasi kasir berbasis web yang cepat, aman, dan mudah digunakan!</p>
+            <a href="#features" class="btn btn-light btn-lg px-4 me-2" style="font-size: 16px">Mulai Sekarang</a>
         </div>
     </section>
 
     <!-- Features -->
-    <section id="features" class="features">
+    <section id="features" class="features d-flex align-items-center text-center">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="fw-bold">Fitur Unggulan</h2>
@@ -128,24 +127,24 @@
                 </div>
             </div>
             <div class="d-flex" style="margin-top: 2rem;">
-                <a href="/login" class="btn btn-primary m-auto fw-semibold px-4">Coba Aplikasi</a>
+                <a href="#demo" class="btn btn-primary m-auto fw-semibold px-4">Lihat Demo</a>
             </div>
         </div>
     </section>
 
     <!-- Demo Section -->
     <section id="demo" class="demo">
-        <div class="container">
+        <div class="container my-4">
             <h2 class="fw-bold mb-4">Tampilan Demo Aplikasi</h2>
-            <img src="https://i.imgur.com/Qa9L3I0.png" alt="Demo Aplikasi Kasir">
+            <img src="{{ asset('dashboard.png') }}" alt="Demo Aplikasi Kasir">
         </div>
+        <a href="/login" class="btn btn-primary m-auto fw-semibold px-4 mt-3">Coba Aplikasi</a>
     </section>
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>© 2025 Aplikasi Kasir. Semua Hak Dilindungi.</p>
-            <p>Dikembangkan oleh <a href="#">Yudhistira</a></p>
+            <p style="font-size: 15px; margin-top: 12px;">© 2025 Aplikasi Kasir. Semua Hak Dilindungi.</p>
         </div>
     </footer>
 
