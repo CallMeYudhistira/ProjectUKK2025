@@ -14,29 +14,31 @@
             </a>
         </li>
 
-        <hr class="divider">
+        @if (Auth::user()->role == 'admin')
+            <hr class="divider">
 
-        <li>
-            <a href="#" class="toggle-submenu">
-                <i class="bi bi-archive"></i> Kelola Data
-                <i class="bi bi-chevron-down ms-auto"></i>
-            </a>
-            <ul class="submenu 
-          @if (Request::is('users*') || Request::is('kategori*') || Request::is('satuan*') || Request::is('produk*')) show @endif">
-                <li class="@if (Request::is('users*')) active @endif">
-                    <a href="/users"><i class="bi bi-person-circle"></i> Users</a>
-                </li>
-                <li class="@if (Request::is('kategori*')) active @endif">
-                    <a href="/kategori"><i class="bi bi-tags"></i> Kategori</a>
-                </li>
-                <li class="@if (Request::is('satuan*')) active @endif">
-                    <a href="/satuan"><i class="bi bi-box2"></i> Satuan</a>
-                </li>
-                <li class="@if (Request::is('produk*')) active @endif">
-                    <a href="/produk"><i class="bi bi-boxes"></i> Produk</a>
-                </li>
-            </ul>
-        </li>
+            <li>
+                <a href="#" class="toggle-submenu">
+                    <i class="bi bi-archive"></i> Kelola Data
+                    <i class="bi bi-chevron-down ms-auto"></i>
+                </a>
+                <ul class="submenu 
+            @if (Request::is('users*') || Request::is('kategori*') || Request::is('satuan*') || Request::is('produk*')) show @endif">
+                    <li class="@if (Request::is('users*')) active @endif">
+                        <a href="/users"><i class="bi bi-person-circle"></i> Users</a>
+                    </li>
+                    <li class="@if (Request::is('kategori*')) active @endif">
+                        <a href="/kategori"><i class="bi bi-tags"></i> Kategori</a>
+                    </li>
+                    <li class="@if (Request::is('satuan*')) active @endif">
+                        <a href="/satuan"><i class="bi bi-box2"></i> Satuan</a>
+                    </li>
+                    <li class="@if (Request::is('produk*')) active @endif">
+                        <a href="/produk"><i class="bi bi-boxes"></i> Produk</a>
+                    </li>
+                </ul>
+            </li>
+        @endif
 
         <hr class="divider">
 
