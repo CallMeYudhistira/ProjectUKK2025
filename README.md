@@ -79,3 +79,27 @@ Pembuatan proyek-proyek ini bertujuan untuk:
 ---
 
 ## 📁 Struktur Repositori
+📦 ukk-projects
+├── 📁 aplikasi-kasir
+<!-- ├── 📁 aplikasi-cicilan-kendaraan -->
+<!-- ├── 📁 aplikasi-pembayaran-spp -->
+<!-- └── 📁 aplikasi-lelang -->
+
+---
+
+## 👨‍💻 Pengembang
+**Yudhistira**  
+Siswa SMK [nama sekolah kamu]  
+📧 [email kamu di sini]  
+
+💬 *"Koding bukan hanya tentang menulis baris program, tapi tentang menciptakan solusi yang bermanfaat."*
+
+---
+
+## 🏆 Lisensi
+Proyek ini dibuat untuk keperluan pembelajaran dan ujian praktik (UKK).  
+Diperbolehkan digunakan sebagai referensi pengembangan dengan mencantumkan kredit kepada pembuat.
+
+---
+
+> “Setiap baris kode adalah langkah menuju masa depan yang lebih baik.” 🚀
