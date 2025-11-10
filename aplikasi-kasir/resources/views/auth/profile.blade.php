@@ -13,7 +13,7 @@
                                 height="120">
                         </div>
                         <h4 class="mb-0 fw-bold">{{ $user->name }}</h4>
-                        <p class="mb-0 opacity-75">{{ '@' . $user->username }}</p>
+                        <p class="mb-0 opacity-75">{{ $user->email }}</p>
                     </div>
 
                     <div class="card-body p-4">
