@@ -10,7 +10,7 @@
     <ul>
         <li class="@if (Request::is('beranda')) active @endif" style="margin-top: 2vh;">
             <a href="{{ url('beranda') }}">
-                <i class="bi bi-speedometer2"></i> Dashboard
+                <i class="bi bi-house"></i> Beranda
             </a>
         </li>
 

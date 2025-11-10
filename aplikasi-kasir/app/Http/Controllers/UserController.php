@@ -28,7 +28,7 @@ class UserController extends Controller
     {
         $request->validate([
             'name' => 'required',
-            'email' => 'required|email',
+            'email' => 'required|email|unique:users',
             'password' => 'required|min:6',
             'gender' => 'required',
             'address' => 'required',
@@ -61,8 +61,15 @@ class UserController extends Controller
             'role' => 'required',
         ]);
 
+        $user = User::find($id);
+        $checkEmail = User::where('email', $request->email)->first();
+
+        if($request->email == $checkEmail->email && $id != $checkEmail->id){
+            return redirect('/users')->with('error', 'The email has already been taken.');
+        }
+
         if ($request->password == '- - - -') {
-            User::find($id)->update([
+            $user->update([
                 'name' => $request->name,
                 'email' => $request->email,
                 'gender' => $request->gender,
@@ -71,7 +78,7 @@ class UserController extends Controller
                 'role' => $request->role,
             ]);
         } else {
-            User::find($id)->update([
+            $user->update([
                 'name' => $request->name,
                 'email' => $request->email,
                 'password' => Hash::make($request->password),
