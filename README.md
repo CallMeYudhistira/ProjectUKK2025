@@ -21,7 +21,7 @@ Didesain agar mudah digunakan serta efisien dalam mencatat setiap transaksi penj
 
 ---
 
-<!-- ### 🚗 2. Aplikasi Cicilan Kendaraan
+### 🚗 2. Aplikasi Cicilan Kendaraan
 Sistem manajemen data pelanggan dan pembayaran cicilan kendaraan.  
 Memudahkan admin dalam mencatat transaksi, memantau tunggakan, serta membuat laporan keuangan.
 
@@ -32,7 +32,7 @@ Memudahkan admin dalam mencatat transaksi, memantau tunggakan, serta membuat lap
 - Laporan pembayaran per periode  
 - Login multi-level (admin dan pelanggan)  
 
---- -->
+---
 
 <!-- ### 🏫 3. Aplikasi Pembayaran SPP
 Aplikasi berbasis web untuk membantu sekolah dalam mengelola data pembayaran SPP siswa.  
@@ -81,7 +81,7 @@ Pembuatan proyek-proyek ini bertujuan untuk:
 ## 📁 Struktur Repositori
 📦 ukk-projects
 ├── 📁 aplikasi-kasir
-<!-- ├── 📁 aplikasi-cicilan-kendaraan -->
+├── 📁 aplikasi-cicilan-kendaraan
 <!-- ├── 📁 aplikasi-pembayaran-spp -->
 <!-- └── 📁 aplikasi-lelang -->
 
