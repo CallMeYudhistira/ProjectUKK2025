@@ -62,7 +62,6 @@
                 <div class="card p-3 shadow-sm">
                     <h6>Pembayaran Bulan Ini</h6>
                     <div id="chartStatus"></div>
-                    <div style="height: 172px; padding-top: 4rem;" class="text-center"><h4>🤗😁</h4></div>
                 </div>
             </div>
         </div>
@@ -103,7 +102,7 @@
             document.querySelector("#chartPembayaran"), {
                 chart: {
                     type: 'bar',
-                    height: 400,
+                    height: 320,
                     fontFamily: 'Manrope, sans-serif'
                 },
                 colors: ['#2244FF', '#ABCDEF', '#FFDCAB'],
