@@ -34,7 +34,7 @@ Memudahkan admin dalam mencatat transaksi, memantau tunggakan, serta membuat lap
 
 ---
 
-<!-- ### 🏫 3. Aplikasi Pembayaran SPP
+### 🏫 3. Aplikasi Pembayaran SPP
 Aplikasi berbasis web untuk membantu sekolah dalam mengelola data pembayaran SPP siswa.  
 Setiap transaksi tercatat otomatis dan dapat dicetak dalam bentuk bukti pembayaran.
 
@@ -45,7 +45,7 @@ Setiap transaksi tercatat otomatis dan dapat dicetak dalam bentuk bukti pembayar
 - Laporan keuangan per bulan atau tahun  
 - Dashboard rekapitulasi pembayaran  
 
---- -->
+---
 
 <!-- ### 💰 4. Aplikasi Lelang
 Aplikasi sistem lelang online yang memungkinkan pengguna melakukan penawaran terhadap barang tertentu.  
@@ -73,7 +73,7 @@ Pembuatan proyek-proyek ini bertujuan untuk:
 - **Framework:** Laravel 10  
 - **Database:** MySQL  
 - **Frontend:** HTML, CSS, Bootstrap  
-- **Tools:** VS Code, Laragon/XAMPP, GitHub  
+- **Tools:** VS Code, Laragon, GitHub  
 - **Laporan:** DOMPDF untuk generate PDF  
 
 ---
@@ -82,15 +82,13 @@ Pembuatan proyek-proyek ini bertujuan untuk:
 📦 ukk-projects
 ├── 📁 aplikasi-kasir
 ├── 📁 aplikasi-cicilan-kendaraan
-<!-- ├── 📁 aplikasi-pembayaran-spp -->
+├── 📁 aplikasi-pembayaran-spp
 <!-- └── 📁 aplikasi-lelang -->
 
 ---
 
 ## 👨‍💻 Pengembang
 **Yudhistira**  
-Siswa SMK [nama sekolah kamu]  
-📧 [email kamu di sini]  
 
 💬 *"Koding bukan hanya tentang menulis baris program, tapi tentang menciptakan solusi yang bermanfaat."*
 

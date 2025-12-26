@@ -1,0 +1,106 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 260px;
+    background-color: #ffffff;
+    color: #000;
+    transition: all 0.3s ease;
+    overflow-y: auto;
+    border-right: 1px solid #e0e0e0;
+    z-index: 50;
+}
+
+.sidebar .brand {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #007bff;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    padding: 5px 15px;
+    margin: 10px 0;
+}
+
+.sidebar ul li a,
+.sidebar ul li button {
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    font-weight: 500;
+}
+
+.sidebar ul li a i {
+    font-size: 1.2rem;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li.active > a {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.sidebar ul li button{
+  width: 100%;
+}
+
+.sidebar ul li button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.sidebar hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 8px 0;
+}
+
+/* Dropdown animation */
+.sidebar .submenu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    padding-left: 10px;
+}
+
+.sidebar .submenu.show {
+    max-height: 300px;
+}
+
+main,
+.content,
+footer {
+    margin-left: 260px;
+    transition: margin-left 0.3s ease;
+}
+
+.brand-app{
+    display: flex;
+    margin: 1.6rem 1.3rem;
+    width: fit-content;
+    color: #0059dd;
+}
+
+.brand-app i{
+    font-size: 2rem;
+}
+
+.brand-app span{
+    font-size: 1.1rem;
+    padding-left: 12px;
+}
