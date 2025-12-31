@@ -47,7 +47,7 @@ Setiap transaksi tercatat otomatis dan dapat dicetak dalam bentuk bukti pembayar
 
 ---
 
-<!-- ### 💰 4. Aplikasi Lelang
+### 💰 4. Aplikasi Lelang
 Aplikasi sistem lelang online yang memungkinkan pengguna melakukan penawaran terhadap barang tertentu.  
 Admin dapat membuat lelang baru, memantau penawaran, dan menentukan pemenang.
 
@@ -58,7 +58,7 @@ Admin dapat membuat lelang baru, memantau penawaran, dan menentukan pemenang.
 - Laporan hasil lelang  
 - Riwayat penawaran pengguna  
 
---- -->
+---
 
 ## 🧩 Tujuan Pengembangan
 Pembuatan proyek-proyek ini bertujuan untuk:
@@ -83,7 +83,7 @@ Pembuatan proyek-proyek ini bertujuan untuk:
 ├── 📁 aplikasi-kasir </br>
 ├── 📁 aplikasi-cicilan-kendaraan </br>
 ├── 📁 aplikasi-pembayaran-spp </br>
-<!-- └── 📁 aplikasi-lelang -->
+└── 📁 aplikasi-lelang
 
 ---
 
